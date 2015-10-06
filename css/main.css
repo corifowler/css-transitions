@@ -15,7 +15,7 @@ ul li p {
   overflow: hidden;
   transition: height 2s;
   margin: 0;
-  color: #7BC8A4; }
+  margin-left: 5px; }
 
 h2 {
   padding: 5px;
