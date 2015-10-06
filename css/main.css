@@ -1,6 +1,32 @@
+.container {
+  font-family: 'Playfair Display', serif; }
+
 .box {
-  border: 1px solid black;
-  width: 600px; }
+  border: 1px solid #F3663D;
+  padding: 0;
+  width: 600px;
+  overflow: hidden; }
 
 ul li {
   list-style: none; }
+
+ul li p {
+  height: 0;
+  overflow: hidden;
+  transition: height 2s;
+  margin: 0;
+  color: #7BC8A4; }
+
+h2 {
+  padding: 5px;
+  margin: 0;
+  background-color: #F3663D;
+  border: 1px solid #FFC65D;
+  color: white; }
+
+h2:hover {
+  background-color: #FFC65D;
+  cursor: pointer; }
+
+.expand {
+  height: 175px; }
