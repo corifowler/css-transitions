@@ -15,3 +15,12 @@ $('.sec3').on('click', function(){
   $('.one').removeClass('expand');
   $('.two').removeClass('expand');
 });
+
+
+// Tim's example - uses 'this' to refer to what the event happened on (h2)
+// $('section:not(:first)').addClass('hidden');
+// $('.accordion').on('click', 'h2', function(){
+//   $(this).parent().removeClass('hidden').siblings().addClass('hidden');
+// });
+
+// Link to example: http://codepen.io/twhitacre/pen/PPmLbP?editors=011
